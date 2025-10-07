@@ -1,53 +1,66 @@
-// export const menu = [
-//   {
-//     key: "menu",
-//     show: "tampilkan menu lengkap",
-//   },
-//   {
-//     key: "info lowongan kerja",
-//     show: "tampilkan menu lengkap",
-//   },
-//   {
-//     key: "perizinan",
-//     show: "",
-//   },
-// ];
-
 export const menuTemplate = {
-  greeting: `
-👋 Halo! Saya *Zapin AI*, asisten virtual BP3MI Riau.
+  penelitian: {
+    message: `📚 Untuk permohonan *penelitian* di lingkungan BP3MI Riau, silakan isi formulir berikut:  
+👉 [Formulir Penelitian](https://abc.com)  
 
-Ketik salah satu:
-1️⃣ Informasi layanan BP3MI  
-2️⃣ Bantuan pengaduan  
-3️⃣ Hubungi petugas manusia
-`,
+Setelah formulir dikirim, tim kami akan meninjau dan menghubungi Anda untuk konfirmasi lebih lanjut.  
+Mohon menunggu balasan dari kami.📬  
+Jika belum ada respon setelah *1×24 jam*, silakan hubungi kembali melalui pesan ini.
+Terima kasih atas kerja samanya.🙏`,
+  },
 
-  layanan: `
-📘 *Informasi Layanan BP3MI Riau*  
-Kami menyediakan berbagai layanan seperti:  
-- Penempatan dan Perlindungan Pekerja Migran Indonesia (PMI)  
-- Edukasi dan pelatihan pra-penempatan  
-- Pengaduan serta bantuan hukum.  
-Ketik *pengaduan* untuk melaporkan masalah.
-`,
+  permintaan_data: {
+    message: `📊 Untuk keperluan *permintaan data resmi* BP3MI Riau, silakan isi formulir berikut:  
+👉 [Formulir Permintaan Data](https://abc.com)  
 
-  pengaduan: `
-⚠️ *Pengaduan dan Bantuan*  
-Jika Anda mengalami masalah, silakan laporkan melalui:  
-📞 Call Center: 0800-1000-BP3MI  
-Atau ketik detail pengaduan Anda agar kami bantu teruskan ke petugas.
-`,
+Permintaan Anda akan kami proses sesuai dengan prosedur dan ketersediaan data.  
+📬 Mohon menunggu balasan dari kami.  
+Apabila belum ada respon setelah *1×24 jam*, silakan hubungi kembali melalui pesan ini.  
+Terima kasih.🙏`,
+  },
 
-  kontak: `
-📞 *Kontak BP3MI Riau*  
-Alamat: Jl. Soekarno Hatta No. 45, Pekanbaru  
-Email: info@bp3mi.go.id  
-Jam Layanan: 08.00–16.00 WIB (Senin–Jumat)
-`,
+  perizinan_magang: {
+    message: `🎓 Untuk pengajuan *magang* di BP3MI Riau, silakan isi formulir berikut:  
+👉 [Formulir Perizinan Magang](https://abc.com)  
 
-  default: `
-Maaf, saya belum mengerti pertanyaan Anda.  
-Ketik *menu* untuk melihat pilihan bantuan yang tersedia. 🙏
-`,
+Kami akan meninjau permohonan Anda dan menghubungi kembali setelah proses administrasi selesai.  
+📬 Mohon menunggu balasan dari kami.  
+Jika belum ada respon setelah *1×24 jam*, silakan hubungi kembali melalui pesan ini.  
+Terima kasih.🙏`,
+  },
+
+  permohonan_kerja_sama: {
+    message: `🤝 Untuk mengajukan *kerja sama* dengan BP3MI Riau, silakan isi formulir berikut:  
+👉 [Formulir Permohonan Kerja Sama](https://abc.com)  
+
+Tim kami akan meninjau proposal Anda dan menghubungi lebih lanjut.  
+📬 Mohon menunggu balasan dari kami.  
+Jika belum ada respon setelah *1×24 jam*, silakan hubungi kembali melalui pesan ini.  
+Terima kasih.🙏`,
+  },
+
+  info_lowongan_kerja: {
+    message: `💼 Untuk melihat *informasi lowongan kerja luar negeri resmi* yang tersedia melalui BP3MI Riau, silakan kunjungi tautan berikut:  
+👉 [Daftar Lowongan Kerja Luar Negeri] (https://siskop2mi.bp2mi.go.id/lowongan/list)  
+
+Pastikan Anda hanya melamar melalui sumber resmi BP3MI untuk menghindari penipuan tenaga kerja.  
+Semoga informasi ini bermanfaat.
+Terima kasih.🙏`,
+  },
+
+  info_p3mi_riau: {
+    message: `🏢 Berikut daftar resmi *Perusahaan Penempatan Pekerja Migran Indonesia (P3MI)* yang beroperasi di wilayah Riau:  
+👉 [Daftar P3MI Riau](https://siskop2mi.bp2mi.go.id/profil/lembaga/list )  
+Semoga informasi ini bermanfaat.🙏`,
+  },
+
+  kendala_siskop2mi: {
+    message: `⚙️ Jika Anda mengalami kendala pada aplikasi *SISKOP2MI*, mohon laporkan melalui formulir berikut:  
+👉 [Formulir Laporan Kendala SISKOP2MI](https://efg.com)  
+
+Tim teknis kami akan membantu secepat mungkin.
+📬 Mohon menunggu balasan dari kami.  
+Jika belum ada respon setelah *1×24 jam*, silakan hubungi kembali melalui pesan ini.  
+Terima kasih.🙏`,
+  },
 };

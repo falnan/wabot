@@ -23,23 +23,3 @@ router.get("/", (req, res) => {
 //message
 router.post("/", handleIncomingMessage);
 export default router;
-
-// router.post("/", async (req, res) => {
-//   try {
-//     if (req.body.entry?.[0].changes?.[0].value?.messages) {
-//       const message = req.body.entry[0].changes[0].value.messages[0];
-//       const sender = message.from;
-//       const text = message.text?.body || "";
-//       console.log(`Pesan masuk dari ${sender}: ${text}`);
-
-//       //logic reply
-//       //1. jika ada state kurang dari 1 hari, langsung tempilkan.....
-//       //2. jika belum ada state, kirim perkenalan....
-//     }
-
-//     res.sendStatus(200);
-//   } catch (err) {
-//     console.error("Error:", err.message);
-//     res.sendStatus(500);
-//   }
-// });
