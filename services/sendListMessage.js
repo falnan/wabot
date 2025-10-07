@@ -79,6 +79,7 @@ Atau, Anda juga dapat mengakses layanan resmi melalui menu di bawah ini.`,
   );
 }
 
-await sendListMessage("6287757651168");
-// await sendListMessage("6282285567722");
-// await sendListMessage("681268830331");
+// await sendListMessage("6282285567722"); //me
+await sendListMessage("6282269433711"); //ayang
+// await sendListMessage("6287757651168"); //sidik
+// await sendListMessage("681268830331"); //widia
